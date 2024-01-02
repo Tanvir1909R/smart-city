@@ -1,0 +1,12 @@
+.ad{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    .ad_img{
+        padding: .8rem;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

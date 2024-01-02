@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cityresources",
+  "info": {
+    "singularName": "cityresource",
+    "pluralName": "cityresources",
+    "displayName": "City Profile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "upload_pdf": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

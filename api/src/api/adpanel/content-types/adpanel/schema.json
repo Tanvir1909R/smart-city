@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "adpanels",
+  "info": {
+    "singularName": "adpanel",
+    "pluralName": "adpanels",
+    "displayName": "Top AdPanel ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "adlink": {
+      "type": "string"
+    }
+  }
+}
